@@ -24,9 +24,9 @@ new_node->right = parent->right;
 parent->right = new_node;
 
 if (new_node->right)
-	{
-		new_node->right->parent = new_node;
-	}
+{
+new_node->right->parent = new_node;
+}
 
 new_node->left = NULL;
 
