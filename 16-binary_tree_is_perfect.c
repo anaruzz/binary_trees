@@ -3,13 +3,13 @@
 #include <math.h>
 
 /**
-* binary_tree_is_full- checks if a binary tree is full
+* binary_tree_is_perfect- checks if a binary tree is full
 * @tree: pointer to the root node
 * Return: int
 */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-  int height, size, h;
+int height, size, h;
 if (!tree)
 return (0);
 
