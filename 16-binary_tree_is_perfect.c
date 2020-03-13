@@ -1,5 +1,11 @@
 #include "binary_trees.h"
 #include <stdlib.h>
+/**
+ * _pow_ - return x**y
+ * @x: given.
+ * @y: power.
+ * Return: x ** y.
+ */
 
 int _pow_(int x, int y)
 {
